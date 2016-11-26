@@ -37,7 +37,7 @@ def index_discovery():
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="cnr-package" content="{domain}/{{name}} {host}/api/v1/packages/{{name}}/pull">
+    <meta name="cnr-package" content="{domain}/{{name}} {host}/api/v1/packages/{{name}}/{{version}}/{{media_type}}/pull">
     </head>
     <body>
     </body>

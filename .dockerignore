@@ -1,0 +1,15 @@
+conf/stack
+screenshots
+tools
+test/data/registry
+venv
+.git
+!.git/HEAD
+.gitignore
+Bobfile
+README.md
+ROADMAP.md
+requirements-nover.txt
+run-local.sh
+.DS_Store
+*.pyc
