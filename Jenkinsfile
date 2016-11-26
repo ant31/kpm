@@ -17,6 +17,7 @@ node {
       writeFile file: 'Dockerfile', text: 'FROM node:5.3-onbuild'
     }
     env.setProperty('FABRIC8_DOCKER_REGISTRY_SERVICE_HOST', 'fabric8-docker-registry.fabric8.kpmhub.com')
+    env.setProperty('FABRIC8_DOCKER_REGISTRY_SERVICE_PORT', '443')
     newVersion = performCanaryRelease {}
   }
   def rc = getKubernetesJson {
