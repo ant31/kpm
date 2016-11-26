@@ -1,5 +1,6 @@
 #!/usr/bin/groovy
-@Library('github.com/ant31/fabric8-pipeline-library@master')
+@Library('github.com/fabric8io/fabric8-pipeline-library@master')
+#@Library('github.com/ant31/fabric8-pipeline-library@master')
 
 def utils = new io.fabric8.Utils()
 
